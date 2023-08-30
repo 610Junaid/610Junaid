@@ -157,7 +157,7 @@ span.typed-cursor {
 }
 
 #about {
-  font-size: 100px;
+  font-size: 80px;
   line-height: 46px;
   color: rgb(68, 68, 68);
   font-family: "Montserrat", sans-serif;
@@ -229,4 +229,500 @@ span.typed-cursor {
   color: rgb(68, 68, 68);
   background-color: #fff;
   transition: all ease-in-out 0.4s;
+}
+
+#skills {
+  width: 100%;
+  height: 75vh;
+  background-color: rgb(219, 219, 233);
+  display: flex;
+  justify-content: center;
+}
+
+#skills h3 {
+  font-size: 80px;
+  line-height: 46px;
+  color: rgb(68, 68, 68);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  opacity: 5.5%;
+  margin-top: 65px;
+}
+
+#skills h2 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: rgb(68, 68, 68);
+  position: absolute;
+  margin-top: 60px;
+}
+
+#ddc {
+  /* border: 2px solid black; */
+  box-sizing: border-box;
+  width: 80%;
+  height: 60vh;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#skills #ddc {
+  transform: translateY(120px);
+}
+
+.grphic-dev-certificate {
+  /* border: 2px solid blue; */
+  box-sizing: border-box;
+  width: 30%;
+  height: 85%;
+  text-align: center;
+  display: flex;
+  justify-content: left;
+}
+
+.grphic-dev-certificate #design {
+  font-size: 25px;
+  font-family: "lato", sans-serif;
+  color: rgb(68, 68, 68);
+}
+
+.grphic-dev-certificate #development {
+  font-size: 25px;
+  font-family: "lato", sans-serif;
+  color: rgb(68, 68, 68);
+}
+
+.grphic-dev-certificate #certifications {
+  font-size: 25px;
+  font-family: "lato", sans-serif;
+  color: rgb(68, 68, 68);
+}
+
+.bussiness {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 1px;
+}
+
+.bussiness span {
+  margin-left: 8px;
+}
+
+#bar1 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 7.5%;
+}
+
+#bar1 div {
+  background-color: grey;
+  height: 100%;
+  width: 90%;
+}
+
+.logo-design {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 1px;
+}
+
+.logo-design span {
+  margin-left: 8px;
+}
+
+#bar2 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 13%;
+}
+
+#bar2 div {
+  background-color: grey;
+  height: 100%;
+  width: 85%;
+}
+
+.psd-development {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 1px;
+}
+
+.psd-development span {
+  margin-left: 8px;
+}
+
+#bar3 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 18.5%;
+}
+
+#bar3 div {
+  background-color: grey;
+  height: 100%;
+  width: 81%;
+}
+
+.figma {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 1px;
+}
+
+.figma span {
+  margin-left: 8px;
+}
+
+#bar4 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 24%;
+}
+
+#bar4 div {
+  background-color: grey;
+  height: 100%;
+  width: 81%;
+}
+
+.html {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 1px;
+}
+
+.html span {
+  margin-left: 8px;
+}
+
+#bar5 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 7.5%;
+}
+
+#bar5 div {
+  background-color: grey;
+  height: 100%;
+  width: 90%;
+}
+
+.css {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 1px;
+}
+
+.css span {
+  margin-left: 8px;
+}
+
+#bar6 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 13%;
+}
+
+#bar6 div {
+  background-color: grey;
+  height: 100%;
+  width: 90%;
+}
+
+.javascript {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 1px;
+}
+
+.javascript span {
+  margin-left: 8px;
+}
+
+#bar7 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 18.5%;
+}
+
+#bar7 div {
+  background-color: grey;
+  height: 100%;
+  width: 81%;
+}
+
+.java {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 1px;
+}
+
+.java span {
+  margin-left: 8px;
+}
+
+#bar8 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 24%;
+}
+
+#bar8 div {
+  background-color: grey;
+  height: 100%;
+  width: 65%;
+}
+
+.photoshop {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 1px;
+}
+
+#bar9 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 7.5%;
+}
+
+#bar9 div {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+}
+
+.photoshop-linkedin {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 1px;
+}
+
+#bar10 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 13%;
+}
+
+#bar10 div {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+}
+
+.software-development {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 1px;
+}
+
+#bar11 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 18.5%;
+}
+
+#bar11 div {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+}
+
+.virtual-program {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 1px;
+}
+
+#bar12 {
+  height: 15px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 233);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 24%;
+}
+
+#bar12 div {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+}
+
+#education {
+  background-color: #d2cdd9;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+#education h3 {
+  font-size: 80px;
+  line-height: 46px;
+  color: rgb(68, 68, 68);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  opacity: 5.5%;
+  margin-top: 65px;
+}
+
+#education h2 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: rgb(68, 68, 68);
+  position: absolute;
+  margin-top: 60px;
+}
+
+#education-details {
+  /* border: 1px solid black; */
+  height: 73%;
+  width: 75%;
+  position: absolute;
+  margin-top: 135px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.degrees {
+  border: 1px solid black;
+  border-left: 3px solid black;
+  height: 41%;
+  width: 45%;
+}
+
+#education .degrees h3 {
+  color: #000000;
+  font-size: 23px;
+  font-weight: 700;
+  opacity: 100%;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.time-frame {
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 26px;
+  opacity: 95%;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.degree-description {
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "lato", sans-serif;
+  color: #444444;
+  margin-top: 15px;
+}
+
+.degree-college {
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "lato", sans-serif;
+  color: #444444;
+  margin-top: 20px;
 }
